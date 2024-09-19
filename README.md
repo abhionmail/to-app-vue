@@ -1,6 +1,14 @@
 # todo-app-vue
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple TODO app created using vite.
+
+Functionality: 
+1. Add a task with priority
+2. View the List of tasks 
+3. Edit the individual task
+4. Clear the individual task
+5. Clear all the tasks
+6. Tasks are synchronized in local storage
 
 ## Recommended IDE Setup
 
