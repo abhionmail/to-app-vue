@@ -1,6 +1,7 @@
 # todo-app-vue
 
-A simple TODO app created using vite.
+A simple TODO app created using vite. This is deployed using Netlify to (https://heartfelt-heliotrope-ac297e.netlify.app/)[https://heartfelt-heliotrope-ac297e.netlify.app/]
+
 
 Functionality: 
 1. Add a task with priority
@@ -9,6 +10,7 @@ Functionality:
 4. Clear the individual task
 5. Clear all the tasks
 6. Tasks are synchronized in local storage
+  
 
 ## Recommended IDE Setup
 
