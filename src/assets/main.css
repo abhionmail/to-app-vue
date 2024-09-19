@@ -1,0 +1,68 @@
+body {
+  background: beige;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 19px;
+  max-width: 100vw;
+}
+
+.container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  inset: 0px;
+  max-width: 100vw;
+  max-height: 100dvh;
+  margin: auto;
+}
+
+.todo-form-container{
+  min-width:440px;
+}
+
+input[type="text"],
+select,
+select:focus,
+input[type="text"]:focus {
+  color: #fff!important;
+  border: none;
+  background: #423a6f!important;
+  max-width: 400px;
+}
+
+.todos li {
+  background: #423a6f;
+  color: #fff;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.filtered {
+  display: none !important;
+}
+
+.btn:hover {
+  background: #423a6f;
+  color: #fff;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-radius: 13px 13px;
+  transition: 0.8s;
+}
+
+.header-btns{
+  padding: 5px 0;
+}
+
+.list-wrapper {
+  width: 435px;
+}
+
+.btn-group {
+  padding-left: 10px;
+}
+
